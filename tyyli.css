@@ -1,0 +1,314 @@
+html {
+	background-color: #ffffff;
+	height: 100%;
+}
+
+body {
+	background-color: #EEEEEE;
+	max-width: 100%;
+	margin: 0;
+	height: 100%;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#wrapper {
+	background-color: #EEEEEE;
+	min-height: 100%;
+	position: relative;
+}
+
+/* Ylätunniste ja navigointi */
+
+header#ylatunniste {
+	display: block;
+	background-color: #8BC34A;
+	height: 80px;
+	width: 100%;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	position: fixed;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+#logo {
+	display: inline-block;
+	margin: 2px;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+#ylatunnistesisalto {
+	max-width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+nav {
+	display: inline-block;
+	width: 100%;
+	padding: 0px;
+}
+
+nav ul {
+	text-align: center;
+	display: inline-block;
+	padding: 0px 0px 0px 0px;
+	margin: 0;
+
+}
+
+nav li {
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	margin: 2px;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+nav a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav select {
+	display: none;
+}
+
+/* Keskitys */
+
+#keskitys {
+	display: table;
+	min-width: 320px;
+	max-width: 1024px;
+	margin: auto;
+	padding: 85px 0px 80px 0px; 
+	min-height: 100%;
+}
+
+/* Vasen laita eli tekstialue ym. */
+
+article {
+	display: table-cell;
+	vertical-align: top;
+	width: 100%;
+	margin: 5px 0px 0px 0px;
+	
+}
+
+div.tekstilaatikkokehys {
+	padding: 5px;
+	width: 100%;
+}
+
+div.tekstilaatikko {
+	width: 100%;
+	background-color: #FFFFFF;
+	display: inline-block;
+	box-shadow: 1px 1px 5px #888888;
+}
+	
+.sisalto {
+	padding: 10px;
+	width: 100%;
+}
+
+.sisalto ul {
+	padding: 0;
+	margin: 0;
+}
+
+.sisalto li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0px 2px 0px 2px;
+	padding: 0px 5px 0px 5px;
+}
+
+.sisalto a {
+	text-decoration: underline;
+	color: #000000;
+}
+
+img.uutinen {
+	margin-right: 10px;
+	float: left;
+}
+
+p.uutinen{
+	float: right;
+}
+
+p.clear {
+	clear: both;
+}
+
+
+
+/* Oikea laita */
+
+#oikea {
+	display: table-cell;
+	vertical-align: top;
+	min-width: 320px;
+	max-width: 320px;
+	margin: 5px 0px 0px 0px;
+	height: 100%;
+}
+
+div.oikeatekstilaatikko {
+	width: 100%;
+	background-color: #FFFFFF;
+	display: inline-block;
+	margin: 5px;
+	box-shadow: 1px 1px 5px #888888;
+}
+
+/* Alatunniste */
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #757575;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	margin: 5px 0px 0px 0px;
+	padding: 0;
+}
+
+#footerloota {
+	min-width: 320px;
+	max-width: 1080px;
+	margin: auto;
+	height: 100%;
+	padding-top: 1px;
+}
+
+/* Varoitusteksti */
+
+div.varoitus {
+	border: 2px solid #F44336;
+	padding: 0px 10px 0px 10px;
+}
+
+p.varoitusteksti {
+	font-family: 'Roboto', sans-serif;
+	color: #F44336;
+}
+
+
+/* Infotaulukot */
+
+table.infotaulukko {
+	width: 100%;
+}
+
+table.infotaulukko tr:nth-child(even) {
+	background-color: #eeeeee;
+}
+
+table.infotaulukko tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+div.galleria {
+	display: inline-block;
+}
+
+img.s6taulukkokuvat {
+	width: 144px;
+	height: 174px;
+}
+
+img.s5taulukkokuvat {
+	width: 150px;
+	height: 150px;
+}
+
+th {
+	font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+td {
+	width: 50%;
+	font-family: 'Roboto', sans-serif;
+	min-width: 150px;
+}
+
+/* Palauteloota */
+
+form {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/* Fontit */
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+}
+
+
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+}
+
+@media (max-width: 743px) {
+
+nav ul {
+	display: none;
+}
+
+nav select {
+	display: inline-block;
+}
+
+}
+
+@media (max-width: 640px) {
+
+#keskitys {
+	display: inline-block;
+	width: 100%;
+}
+
+article {
+	display: inline-block;
+	width: 100%;
+}
+
+#oikea {
+	display: inline-block;
+	min-width: 100%;
+	max-width: 100%;
+	margin: 0px;
+}
+}
+
+

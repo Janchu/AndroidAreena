@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="fi">
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<title>Android Areena</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="author" content="Janne">
+<link href="tyyli.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div id="wrapper">
+
+<!-- Ylätunniste, jossa navigointipalkki -->
+
+<header id="ylatunniste">
+	<div id="ylatunnistesisalto">
+	<nav id="paavalikko">
+
+	<div id="logo"><a href="index.html"><img src="AndroidAreena.png" alt="Android Areena"></a></div>
+	<ul>
+		<li><a href="index.html"><h3>Etusivu</h3></a></li>
+		<li><a href="uutiset.html"><h3>Uutiset</h3></a></li>
+		<li><a href="laitteet.html"><h3>Laitteet</h3></a></li>
+		<li><a href="sovellukset.html"><h3>Sovellukset</h3></a></li>
+		<li><a href="kustomointi.html"><h3>Kustomointi</h3></a></li>
+		<li><a href="otayhteytta.html"><h3>Ota yhteyttä</h3></a></li>
+	</ul>
+	<select onchange="if (this.value) window.location.href = this.value;">
+		<option value="#">Valitse sivu</option>
+        <option value="index.html">Etusivu</option>
+        <option value="uutiset.html">Uutiset</option>
+        <option value="laitteet.html">Laitteet</option>
+        <option value="sovellukset.html">Sovellukset</option>
+        <option value="kustomointi.html">Kustomointi</option>
+		<option value="otayhteytta.html">Ota yhteyttä</option>
+    </select>
+	</nav>
+
+	</div>
+</header>
+
+<!-- Keskitys -->
+
+<div id="keskitys">
+
+<!-- Tekstialue VASEN -->
+
+<article>
+
+<div class="tekstilaatikkokehys">
+<div class="tekstilaatikko">
+<section class="sisalto">
+	<h2>Otsikko 1.1</h2>
+	<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+	<h3>Otsikko 1.2</h3>
+	<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+</section>
+</div>
+</div>
+
+</article>
+
+<!-- Tekstialue OIKEA-->
+
+<div id="oikea">
+
+<div class="tekstilaatikkokehys">
+<div class="tekstilaatikko">
+	<section class="sisalto">
+	<h4>Hae laitetta:</h4>
+	<form id="hakuloota" action="search">
+    <input id="search" type="text" placeholder="Hae laitetta...">
+    <input id="submit" type="submit" value="Search"><br><br>
+</form>
+	</section>
+</div>
+</div>
+
+<div class="tekstilaatikkokehys">
+<div class="tekstilaatikko">
+	<section class="sisalto">
+	<h4>Otsake</h4>
+	<p>Tila varattu mainoksille ym.</p>
+	</section>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- Alatunniste -->
+
+<footer>
+	<div id="footerloota">
+	<p>Android Areena</p>
+	</div>
+</footer>
+</div>
+</body>
+</html>
